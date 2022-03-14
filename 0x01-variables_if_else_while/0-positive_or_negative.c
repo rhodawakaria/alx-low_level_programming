@@ -7,8 +7,9 @@
  *
  * Description: Prints a number and whether it is positive, negative, or zero
  *
- * Returns: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	int n;
