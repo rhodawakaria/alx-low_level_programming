@@ -1,9 +1,9 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * main - Entry point
  *
- * Description: Prints the string "_putchar", followed by a new line
+ * Description: Prints the word _putchar
  *
  * Return: Always 0 (Success)
  */
@@ -21,3 +21,4 @@ int main(void)
 
 	return (0);
 }
+
