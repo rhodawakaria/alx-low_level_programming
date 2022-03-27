@@ -24,7 +24,12 @@ void print_times_table(int n)
 				int width = n * n;
 				int digits = width > 0 && width < 100 ? 2 : 3;
 
-				if (j < n)
+				if (j == 0)
+				{
+					printf("%d, ", product);
+				}
+
+				else if (j < n)
 				{
 					printf("%*d, ", digits, product);
 				}
