@@ -23,8 +23,8 @@ void print_times_table(int n)
 
 				printf("%d, ", product);
 			}
+			putchar('\n');
 		}
-		putchar('\n');
 	}
 
 }
