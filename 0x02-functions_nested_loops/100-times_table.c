@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
 #include <math.h>
 
 /**
@@ -23,7 +22,7 @@ void print_times_table(int n)
 			{
 				int product = i * j;
 				int width = n * n;
-				int digits = floor(log10(abs(width))) + 1;
+				int digits = width > 0 && width < 10?1: width > 10 && width < 100?2:3;
 
 				printf("%*d, ", digits, product);
 			}
