@@ -14,7 +14,8 @@ void print_times_table(int n)
 	{
 		if (n == 0)
 		{
-			fprintf(stderr, "0 ");
+			printf("0 ");
+			fprint(stderr, "");
 		}
 
 		else
