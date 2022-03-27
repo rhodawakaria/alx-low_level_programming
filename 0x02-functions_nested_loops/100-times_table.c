@@ -22,9 +22,16 @@ void print_times_table(int n)
 			{
 				int product = i * j;
 				int width = n * n;
-				int digits = width > 0 && width < 10?1: width > 10 && width < 100?2:3;
+				int digits = width > 0 && width < 100 ? 2 : 3;
 
-				printf("%*d, ", digits, product);
+				if (j < n)
+				{
+					printf("%*d, ", digits, product);
+				}
+				else
+				{
+					printf("%*d ", digits, product);
+				}
 			}
 			putchar('\n');
 		}
